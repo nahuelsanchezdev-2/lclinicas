@@ -3,6 +3,7 @@ import { Play } from "lucide-react";
 
 // Si querés, podés eliminar estos imports si ya no usás thumbnails
 import video1 from "@/assets/videos/R9V9.mp4";
+import video2 from "@/assets/videos/VIDEO2.mp4";
 
 const videos = [
   {
@@ -15,7 +16,7 @@ const videos = [
     id: 2,
     title: "Disponibilidad 24/7",
     description: "No pierdas nunca una consulta de pacientes, incluso fuera del horario habitual",
-    preview: video1
+    preview: video2
   },
   {
     id: 3,
