@@ -1,16 +1,13 @@
-// VideoCard.jsx o dentro del mismo archivo arriba
 import { useState } from "react";
 import { Play } from "lucide-react";
 
 const VideoCard = ({ video }) => {
-  const [hovered, setHovered] = useState(false);
   const [playing, setPlaying] = useState(false);
 
   return (
     <div
       className="group relative bg-white rounded-xl shadow-card hover:shadow-button transition-all duration-300 overflow-hidden hover:scale-105"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => { setHovered(false); setPlaying(false); }}
+      onMouseLeave={() => setPlaying(false)}
     >
       <div className="relative aspect-video">
         {playing ? (
@@ -18,22 +15,17 @@ const VideoCard = ({ video }) => {
             src={video.preview}
             controls
             autoPlay
+            controlsList="nofullscreen nodownload noremoteplayback"
             className="w-full h-full object-cover"
+            onEnded={() => setPlaying(false)}
           />
-        ) : hovered && video.preview ? (
+        ) : (
           <video
             src={video.preview}
-            poster={video.thumbnail}
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-full object-cover"
-          />
-        ) : (
-          <img
-            src={video.thumbnail}
-            alt={video.title}
             className="w-full h-full object-cover"
           />
         )}
