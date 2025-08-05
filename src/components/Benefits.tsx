@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Users, Calendar, Clock, Brain, Check } from "lucide-react";
+import { MessagesSquare, CalendarCheck2 , WandSparkles, SquareUserRound, Check } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import heroImage from "@/assets/hero-dental.png";
 import workflowImage from '@/assets/workflow.png';
@@ -10,34 +10,32 @@ const BenefitsSection = () => {
 
       const benefits = [
     {
-      icon: <Calendar className="w-6 h-6 text-dental-blue" />,
-      title: "Gestión inteligente de turnos",
-      description: "Sistema avanzado de agendado que reduce las ausencias hasta en un 40% y optimiza tu rutina diaria."
+      icon: <CalendarCheck2  className="w-6 h-6 text-dental-blue" />,
+      title: "Cita en 2 minutos",
+      description: "Agenda citas en menos de 2 minutos, mejorando la experiencia de tus pacientes desde el primer contacto."
     },
     {
-      icon: <Users className="w-6 h-6 text-dental-green" />,
-      title: "Atención mejorada para tus pacientes",
-      description: "Recomendaciones personalizadas de tratamiento y recordatorios automáticos de seguimiento."
+      icon: <MessagesSquare className="w-6 h-6 text-dental-green" />,
+      title: "Respuesta inmediata 24x7",
+      description: "Ofrece atención 24/7 para que tus pacientes siempre tengan a alguien disponible cuando lo necesiten."
     },
     {
-      icon: <Brain className="w-6 h-6 text-dental-blue" />,
-      title: "Diagnóstico inteligente",
-      description: "Análisis avanzado para una planificación de tratamientos más rápida y precisa."
+      icon: <SquareUserRound className="w-6 h-6 text-dental-blue" />,
+      title: "Un miembro más en tu equipo, sin cargas sociales",
+      description: "Integra una asistente virtual con rostro e identidad, que brinda calidez humana sin costos adicionales."
     },
     {
-      icon: <Clock className="w-6 h-6 text-dental-green" />,
-      title: "Eficiencia en tu tiempo",
-      description: "Ahorrá más de 3 horas diarias en tareas administrativas con flujos de trabajo automatizados."
+      icon: <WandSparkles className="w-6 h-6 text-dental-green" />,
+      title: "Creación de contenido sin bloqueos",
+      description: "Genera contenido atractivo sin esfuerzo, manteniendo activa y relevante la presencia de tu clínica en redes sociales."
     }
   ];
 
   const features = [
-    "Asistente virtual 24/7 potenciado por VEO 3",
-    "Agendado y recordatorios de turnos automatizados",
-    "Gestión inteligente del ingreso de pacientes y su historial",
-    // "Verificación de cobertura médica en tiempo real",
-    // "Predictive analytics for treatment outcomes",
-    "Integración sin complicaciones con tu software de clínica actual"
+    "Centralizamos la gestión de todas tus conversaciones, desde tu web hasta WhatsApp.",
+    "Integramos nuestra solución con tu CRM actual para una transición sin interrupciones.",
+    "Creamos un asistente virtual a medida que refleje la identidad y los valores de tu clínica.",
+    "Formamos a tu equipo para que trabaje en perfecta armonía con su nueva asistente virtual."
   ];
   
   return (
@@ -45,11 +43,11 @@ const BenefitsSection = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold text-dental-trust mb-4">
-              Resultados comprobados para clínicas dentales
+              Qué beneficios le aportamos a tu clínica?
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            {/* <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Únete a la comunidad de clínicas que ya transformaron su atención y resultados.
-            </p>
+            </p> */}
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -69,7 +67,7 @@ const BenefitsSection = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="animate-fade-in-up">
               <h3 className="text-2xl md:text-3xl font-bold text-dental-trust mb-6">
-                Todo lo que necesitás en una sola plataforma
+                Integra nuestra solución sin complicaciones
               </h3>
               <div className="space-y-4">
                 {features.map((feature, index) => (

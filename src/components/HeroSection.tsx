@@ -4,14 +4,14 @@ import heroImage from "@/assets/hero-dental.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-background via-primary-light/10 to-secondary/20">
+<section className="relative flex items-center bg-gradient-to-br from-background via-primary-light/10 to-secondary/20">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full blur-xl"></div>
         <div className="absolute bottom-20 right-10 w-32 h-32 bg-secondary-vibrant/10 rounded-full blur-xl"></div>
       </div>
       
-      <div className="container mx-auto px-4 py-20 relative z-10">
+      <div className="container mx-auto px-4 py-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             {/* Announcement badge */}
@@ -23,12 +23,12 @@ const HeroSection = () => {
             {/* Main headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                La más 
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> cálida</span> bienvenida a su consultorio,
-                <span className="text-primary"> 24/7</span>
+                Agenda 
+                más citas  desde la <span className="bg-gradient-hero bg-clip-text text-transparent"> primera semana</span> con nuestra recepcionista digital
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                No vuelva a perder la llamada de un paciente. Nuestra recepcionista virtual profesional ofrece una atención al cliente cálida y empática, como si tuviera a su mejor miembro del equipo disponible las 24 horas.
+                Conoce a la única recepcionista digital con rostro e identidad, diseñada para ofrecer una atención cálida y personalizada. Mejora la experiencia de tus pacientes desde el primer contacto y haz crecer tu clínica sin complicaciones.
               </p>
             </div>
 

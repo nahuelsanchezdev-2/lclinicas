@@ -2,33 +2,35 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 
 // Si querés, podés eliminar estos imports si ya no usás thumbnails
-import video1 from "@/assets/videos/R9V9.mp4";
-import video2 from "@/assets/videos/VIDEO2.mp4";
+import video1 from "@/assets/videos/R9V14.mp4";
+import video2 from "@/assets/videos/R9V13.mp4";
+import video3 from "@/assets/videos/VIDEO5.mp4";
+import video4 from "@/assets/videos/VIDEO4.mp4";
 
 const videos = [
   {
     id: 1,
-    title: "Comunicación personalizada con pacientes",
-    description: "Descubrí cómo nuestra recepcionista virtual genera interacciones cálidas y profesionales",
+    title: "Dale una bienvenida cálida a tu sitio web",
+    description: "Lucía te muestra cómo recibir a tus pacientes y ayudarlos a agendar una cita en minutos.",
     preview: video1
   },
   {
     id: 2,
-    title: "Disponibilidad 24/7",
-    description: "No pierdas nunca una consulta de pacientes, incluso fuera del horario habitual",
+    title: "Invita a tus pacientes a resolver sus dudas",
+    description: "Lucía responde preguntas comunes sobre tratamientos y dudas generales con claridad y rapidez.",
     preview: video2
   },
   {
     id: 3,
-    title: "Agendamiento inteligente de turnos",
-    description: "Reservas y recordatorios automáticos que funcionan a la perfección",
-    preview: video1
+    title: "Aprende a mantener una boca saludable con Pilar",
+    description: "Pilar, nuestra experta en salud dental, comparte consejos prácticos para una boca sana.",
+    preview: video4
   },
   {
     id: 4,
-    title: "Menos carga administrativa",
-    description: "Dejá que tu equipo se concentre en la atención de los pacientes",
-    preview: video1
+    title: "Descubre cómo trabaja nuestra clínica con Pilar",
+    description: "Pilar explica cómo funciona la clínica, guiando a los pacientes en cada paso del proceso.",
+    preview: video3
   },
 ];
 
@@ -90,10 +92,10 @@ const VideoShowcase = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-16 animate-fade-in">
         <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-6">
-          Conocé nuestra recepcionista virtual en acción
+          Conoce a tu nueva asistente virtual
         </h2>
         <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-          Mirá demostraciones reales de cómo nuestra solución transforma la comunicación con tus pacientes y agiliza la gestión de tu consultorio
+          Explora cómo nuestra solución optimiza la comunicación con tus pacientes, agiliza la gestión de tu consultorio y ofrece un trato cálido y personalizado desde el primer contacto.
         </p>
       </div>
 
