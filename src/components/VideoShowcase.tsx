@@ -11,13 +11,13 @@ const videos = [
   {
     id: 1,
     title: "Dale una bienvenida cálida a tu sitio web",
-    description: "Lucía te muestra cómo recibir a tus pacientes y ayudarlos a agendar una cita en minutos.",
+    description: "Lucía recibe a tus pacientes con una sonrisa y los invita a agendar una cita en minutos.",
     preview: video1
   },
   {
     id: 2,
     title: "Invita a tus pacientes a resolver sus dudas",
-    description: "Lucía responde preguntas comunes sobre tratamientos y dudas generales con claridad y rapidez.",
+    description: "Lucía responde preguntas frecuentes con claridad y rapidez para que tus pacientes tomen decisiones informadas.",
     preview: video2
   },
   {
@@ -29,7 +29,7 @@ const videos = [
   {
     id: 4,
     title: "Descubre cómo trabaja nuestra clínica con Pilar",
-    description: "Pilar explica cómo funciona la clínica, guiando a los pacientes en cada paso del proceso.",
+    description: "Pilar guiando a los pacientes en cada todo momento para que se sientan acompañados.",
     preview: video3
   },
 ];
