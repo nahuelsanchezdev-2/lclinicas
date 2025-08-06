@@ -92,7 +92,7 @@ const VideoShowcase = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-16 animate-fade-in">
         <h2 className="text-4xl md:text-5xl font-bold text-text-primary mb-6">
-          Conoce a tu nueva asistente virtual
+          Conoce a la única recepcionista digital con rostro e identidad, diseñada para ofrecer una atención cálida y personalizada.
         </h2>
         <p className="text-xl text-text-secondary max-w-3xl mx-auto">
           Explora cómo nuestra solución optimiza la comunicación con tus pacientes, agiliza la gestión de tu consultorio y ofrece un trato cálido y personalizado desde el primer contacto.

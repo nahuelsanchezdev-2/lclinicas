@@ -23,13 +23,11 @@ const HeroSection = () => {
             {/* Main headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                Agenda 
-                más citas  desde la <span className="bg-gradient-hero bg-clip-text text-transparent"> primera semana</span> con nuestra recepcionista digital
+                Agenda más citas en piloto automático desde la <span className="bg-gradient-hero bg-clip-text text-transparent"> primera semana</span>
                 <span className="bg-gradient-hero bg-clip-text text-transparent"> </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                Conoce a la única recepcionista digital con rostro e identidad, diseñada para ofrecer una atención cálida y personalizada. Mejora la experiencia de tus pacientes desde el primer contacto y haz crecer tu clínica sin complicaciones.
-              </p>
+Te ayudamos a mejorar la experiencia de tus pacientes desde el primer contacto y a crecer tu clínica sin complicaciones.              </p>
             </div>
 
             {/* Key benefits */}
@@ -54,10 +52,10 @@ const HeroSection = () => {
                 <Calendar className="h-5 w-5" />
                 Agendar una demostración
               </Button>
-              <Button variant="outline" size="lg" className="group">
+              {/* <Button variant="outline" size="lg" className="group">
                 <Play className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 Ver un video demostrativo
-              </Button>
+              </Button> */}
             </div>
 
             {/* Trust indicators */}
