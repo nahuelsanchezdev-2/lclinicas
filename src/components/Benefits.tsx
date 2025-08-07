@@ -21,7 +21,7 @@ const BenefitsSection = () => {
     },
     {
       icon: <SquareUserRound className="w-6 h-6 text-dental-blue" />,
-      title: "Un miembro más en tu equipo, sin cargas sociales",
+      title: "Haz crecer tu equipo sin pagar demás",
       description: "Integra una asistente virtual con rostro e identidad, que brinda calidez humana y cero cargas sociales."
     },
     {
