@@ -43,6 +43,7 @@ const CTASection = () => {
     <ArrowRight className="h-5 w-5" />
   </Button>
 </div>
+<hr />
 
             {/* Urgency/scarcity */}
             {/* <div className="bg-warm-accent/10 border border-warm-accent/20 p-4 rounded-xl">
