@@ -5,7 +5,7 @@ import VideoShowcase from "@/components/VideoShowcase";
 // import FeaturesSection from "@/components/FeaturesSection";
 // import DemoVideosSection from "@/components/DemoVideosSection";
 // import TestimonialsSection from "@/components/TestimonialsSection";
-import CTASection from "@/components/CTASection";
+import CTASection from "@/components/CTASections";
 // import Footer from "@/components/Footer";
 
 const Index = () => {

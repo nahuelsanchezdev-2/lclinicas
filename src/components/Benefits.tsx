@@ -79,7 +79,7 @@ const BenefitsSection = () => {
                 </div>
               </div>
               <div className="animate-float w-full min-h-[420px] h-[420px] rounded-xl shadow-card">
-  <iframe src="https://app.relevanceai.com/agents/d7b62b/d4fbd6cc-d20b-44dc-884b-d253b11c24ff/30af0a1c-86e2-4c19-9b7c-879ffbe928c7/embed-chat?starting_message_prompts=Quiero+agendar+una+cita&hide_tool_steps=true&hide_file_uploads=true&hide_conversation_list=false&bubble_style=agent&primary_color=%23685FFF&bubble_icon=pd%2Fchat&input_placeholder_text=Escribe+tu+mensaje...&hide_logo=true&hide_description=true" width="100%" height="100%" frameborder="0"></iframe>
+  <iframe src="https://app.relevanceai.com/agents/d7b62b/d4fbd6cc-d20b-44dc-884b-d253b11c24ff/30af0a1c-86e2-4c19-9b7c-879ffbe928c7/embed-chat?starting_message_prompts=Quiero+agendar+una+cita&hide_tool_steps=true&hide_file_uploads=true&hide_conversation_list=false&bubble_style=agent&primary_color=%23685FFF&bubble_icon=pd%2Fchat&input_placeholder_text=Escribe+tu+mensaje...&hide_logo=true&hide_description=true" width="100%" height="100%" frameBorder="0"></iframe>
               </div>
             </div>
           </div>
