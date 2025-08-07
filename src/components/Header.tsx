@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Calendar, MessageSquare } from "lucide-react";
+import { Phone, Calendar, MessageSquare, ArrowRight } from "lucide-react";
 
 const Header = () => {
   return (
@@ -25,9 +25,17 @@ const Header = () => {
               <Phone className="h-4 w-4" />
               (555) 123-4567
             </Button> */}
-            <Button variant="cta">
-              Demo
-            </Button>
+  {/* <a
+    href="https://calendly.com/hola-argentle/15min?back=1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto"
+  >
+    <Button variant="hero" size="sm" className="shadow-floating w-full sm:w-auto">
+      <Calendar className="h-5 w-5" />
+      Agendar Demostración
+    </Button>
+  </a> */}
           </div>
         </div>
       </div>
