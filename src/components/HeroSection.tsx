@@ -48,10 +48,17 @@ Te ayudamos a mejorar la experiencia de tus pacientes desde el primer contacto y
 
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
+
+                              <a
+                href="https://calendly.com/hola-argentle/15min?back=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto"
+              >
               <Button variant="hero" size="lg" className="shadow-floating">
                 <Calendar className="h-5 w-5" />
                 Agendar una demostración
-              </Button>
+              </Button></a>
               {/* <Button variant="outline" size="lg" className="group">
                 <Play className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 Ver un video demostrativo

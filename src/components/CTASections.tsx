@@ -36,12 +36,20 @@ const CTASection = () => {
             </div> */}
 
             {/* CTA buttons */}
+            {/* https://calendly.com/hola-argentle/15min?back=1 */}
 <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
-  <Button variant="hero" size="lg" className="shadow-floating">
-    <Calendar className="h-5 w-5" />
-    Quiero una demostración
-    <ArrowRight className="h-5 w-5" />
-  </Button>
+  <a
+    href="https://calendly.com/hola-argentle/15min?back=1"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto"
+  >
+    <Button variant="hero" size="lg" className="shadow-floating w-full sm:w-auto">
+      <Calendar className="h-5 w-5" />
+      Quiero una demostración
+      <ArrowRight className="h-5 w-5" />
+    </Button>
+  </a>
 </div>
 <hr />
 
