@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button";
+
 import { MessagesSquare, CalendarCheck2 , WandSparkles, SquareUserRound, Check } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import heroImage from "@/assets/hero-dental.png";
-import workflowImage from '@/assets/workflow.png';
+import { Card, CardContent } from '@/components/ui/card';
+
 
 
 
@@ -63,7 +62,7 @@ const BenefitsSection = () => {
               </Card>
             ))}
           </div>
-          <div id="demo" >
+          <div id="demo">
             <br /><br />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="animate-fade-in-up">
