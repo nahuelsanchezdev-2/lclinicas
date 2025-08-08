@@ -51,13 +51,20 @@ const BenefitsSection = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {benefits.map((benefit, index) => (
-              <Card key={index} className="text-center shadow-card hover:shadow-hero transition-all duration-300 animate-scale-in bg-white">
+              <Card
+                key={index}
+                className="text-center shadow-card bg-white transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:scale-[1.03]"
+              >
                 <CardContent className="p-6">
-                  <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-dental-blue-light rounded-full flex items-center justify-center mx-auto mb-4 transition-colors duration-300 group-hover:bg-dental-green">
                     {benefit.icon}
                   </div>
-                  <h3 className="text-lg font-semibold text-dental-trust mb-2">{benefit.title}</h3>
-                  <p className="text-muted-foreground text-sm">{benefit.description}</p>
+                  <h3 className="text-lg font-semibold text-dental-trust mb-2">
+                    {benefit.title}
+                  </h3>
+                  <p className="text-muted-foreground text-sm">
+                    {benefit.description}
+                  </p>
                 </CardContent>
               </Card>
             ))}
