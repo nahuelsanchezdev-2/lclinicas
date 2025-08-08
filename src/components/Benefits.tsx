@@ -63,7 +63,7 @@ const BenefitsSection = () => {
             ))}
           </div>
           <div id="demo">
-            <br /><br />
+            <hr /><br /><br /><br />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="animate-fade-in-up">
                 <h3 className="text-2xl md:text-3xl font-bold text-dental-trust mb-6">
