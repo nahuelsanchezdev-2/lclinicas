@@ -88,7 +88,7 @@ Te ayudamos a mejorar la experiencia de tus pacientes desde el primer contacto y
             </div>
             
             {/* Floating stats */}
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-card border">
+            {/* <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-card border">
               <div className="text-3xl font-bold text-primary">99.8%</div>
               <div className="text-sm text-muted-foreground">Satisfacción del paciente</div>
             </div>
@@ -96,7 +96,7 @@ Te ayudamos a mejorar la experiencia de tus pacientes desde el primer contacto y
             <div className="absolute -top-6 -right-6 bg-card p-6 rounded-xl shadow-card border">
               <div className="text-3xl font-bold text-secondary-vibrant">47%</div>
               <div className="text-sm text-muted-foreground">Menos inasistencias</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
