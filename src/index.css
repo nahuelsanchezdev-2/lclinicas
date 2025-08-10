@@ -50,8 +50,14 @@ All colors MUST be HSL.
     --professional-grey: 210 15% 60%;
     --warm-accent: 25 85% 65%;
 
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(205 85% 45%), hsl(160 65% 50%));
+    /* Gradients 
+    /* --gradient-hero: linear-gradient(135deg, hsl(205 85% 45%), hsl(160 65% 50%));*/
+    --gradient-hero: linear-gradient(135deg,
+#2E4999, /* azul oscuro logo */
+      #4F77BA, /* azul medio logo */
+      #89AEE6  /* azul claro complementario */
+    );
+    /* --gradient-hero: linear-gradient(135deg, hsl(225 54% 39%),hsl(217 43% 52%)); */
     --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 15% 98%));
     --gradient-cta: linear-gradient(135deg, hsl(25 85% 65%), hsl(25 85% 55%));
 
