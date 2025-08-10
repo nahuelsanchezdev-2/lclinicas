@@ -40,7 +40,7 @@ const Demo = () => {
               {/* Badge flotante en la esquina superior derecha */}
               <div className="absolute top-2 right-2 bg-dental-green px-3 py-1 rounded-full shadow-md flex items-center gap-2 animate-bounce">
                 <ChatIcon className="w-4 h-4" />
-                <span className="text-sm font-semibold ">Chatea con tu recepcionista virtual</span>
+                <span className="text-sm font-semibold ">Descubrí a Lucía</span>
               </div>
             </div>
           </div>
