@@ -1,6 +1,6 @@
 import { MessagesSquare, CalendarCheck2, WandSparkles, SquareUserRound, Check } from "lucide-react";
 import { Card, CardContent } from '@/components/ui/card';
-import { MessagesSquare as ChatIcon , ArrowDownLeft     } from "lucide-react"; // Agregamos un icono de chat para el badge
+import { MessagesSquare as ChatIcon , ArrowDown     } from "lucide-react"; // Agregamos un icono de chat para el badge
 
 const Demo = () => {
   const features = [
@@ -39,7 +39,7 @@ const Demo = () => {
 
               {/* Badge flotante en la esquina superior derecha */}
               <div className="absolute top-2 right-2 bg-dental-green px-3 py-1 rounded-full shadow-md flex items-center gap-2 animate-bounce">
-                <ArrowDownLeft      className="w-4 h-4" />
+                <ArrowDown      className="w-4 h-4" />
                 <span className="text-sm font-semibold ">Chatea con Lucía ahora</span>
               </div>
             </div>
