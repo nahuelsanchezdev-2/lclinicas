@@ -3,7 +3,7 @@ import { Calendar, ArrowRight, CheckCircle } from "lucide-react";
 
 const CTASection = () => {
   return (
-    <section className="py-14 bg-gradient-to-br from-primary/5 via-background to-secondary/10">
+    <section id="cta" className="py-14 bg-gradient-to-br from-primary/5 via-background to-secondary/10">
       <div className="container mx-auto px-4">
         <hr className="border-border/50" />
         <div className="max-w-5xl mx-auto py-10">

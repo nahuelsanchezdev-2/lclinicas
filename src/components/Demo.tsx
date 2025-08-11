@@ -11,9 +11,9 @@ const Demo = () => {
   ];
 
   return (
-    <section id="benefits" className="py-20 bg-dental-blue-light/30">
+    <section id="demo" className="py-20 bg-dental-blue-light/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div id="demo">
+        <div>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="animate-fade-in-up">
               <h3 className="text-2xl md:text-3xl font-bold text-dental-trust mb-6">
