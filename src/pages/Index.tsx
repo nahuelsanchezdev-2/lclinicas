@@ -7,7 +7,7 @@ import VideoShowcase from "@/components/VideoShowcase";
 // import DemoVideosSection from "@/components/DemoVideosSection";
 // import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASections";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -23,7 +23,8 @@ const Index = () => {
       <DemoVideosSection />
       <TestimonialsSection />
       
-      <Footer /> */}
+      */}
+      <Footer /> 
     </div>
   );
 };
