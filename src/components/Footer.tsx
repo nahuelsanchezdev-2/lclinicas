@@ -7,7 +7,7 @@ const Footer = () => {
 <footer className="border-t border-gray-200 py-4">
   <div className="container mx-auto px-4">
     <div className="flex justify-end items-center gap-2">
-      <span className="text-sm text-gray-500">Una solución de</span>
+    <span className="text-[11px] md:text-xs italic text-muted-foreground/80">Una solución de</span>
       <a href="https://argentle.com" target="_blank">
 
       
